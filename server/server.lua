@@ -1,4 +1,7 @@
-RegisterNetEvent('uniq-deathscreen:server:getRPName', function(killerid)
+if Config.NetworkProblem then
+    RegisterNetEvent('uniq-deathscreen:server:getRPName')
+end
+AddEventHandler('uniq-deathscreen:server:getRPName', function(killerid)
     local Player = GetPlayer(killerid)
     if Player == nil then return end
     TriggerClientEvent('uniq-deathscreen:client:getRPName', source, GetPlayerRPName(killerid))
