@@ -6,6 +6,7 @@ Config.Framework = 'esx' -- esx, qbcore
 Config.UseRPName = true
 Config.Timer = 300 -- in seconds
 Config.PriceForDead = 1000
+Config.NetworkProblem = true
 Config.RespawnCoords = {
     coords = {
         x = 298.7508,
