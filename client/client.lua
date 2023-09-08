@@ -1,4 +1,6 @@
-RegisterNetEvent('uniq-deathscreen:client:onPlayerDeath')
+if Config.NetworkProblem then
+    RegisterNetEvent('uniq-deathscreen:client:onPlayerDeath')
+end
 AddEventHandler('uniq-deathscreen:client:onPlayerDeath', function(isDead)
     if isDead then
         local killername = nil
