@@ -17,6 +17,8 @@
 
 ## About This Resource
 
+![Github All Releases](https://img.shields.io/github/downloads/uniqscripts/uniq-deathscreen/total.svg?logo=github)
+
 <a href="https://i.imgur.com/DsEorEI.png">Preview Resource</a>
 
 * Clean and responsive UI
