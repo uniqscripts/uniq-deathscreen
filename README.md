@@ -1,5 +1,8 @@
 <div id="top"></div>
 
+
+![Github All Releases](https://img.shields.io/github/downloads/uniqscripts/uniq-deathscreen/total.svg?logo=github)
+
 <br />
 <div align="center">
   <a href="https://www.uniq-scripts.com/">
